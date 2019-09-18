@@ -1,0 +1,9 @@
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\bin\Debug\netcoreapp2.2\Domain.deps.json
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\bin\Debug\netcoreapp2.2\Domain.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\bin\Debug\netcoreapp2.2\Domain.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\obj\Debug\netcoreapp2.2\Domain.csprojAssemblyReference.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\obj\Debug\netcoreapp2.2\Domain.csproj.CoreCompileInputs.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfoInputs.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\obj\Debug\netcoreapp2.2\Domain.AssemblyInfo.cs
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\obj\Debug\netcoreapp2.2\Domain.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Domain\obj\Debug\netcoreapp2.2\Domain.pdb

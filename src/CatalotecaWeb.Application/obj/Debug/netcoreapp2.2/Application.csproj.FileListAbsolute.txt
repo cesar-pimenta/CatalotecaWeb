@@ -1,0 +1,14 @@
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Application.deps.json
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Application.runtimeconfig.json
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Application.runtimeconfig.dev.json
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Application.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Application.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.csprojAssemblyReference.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.csproj.CoreCompileInputs.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.RazorAssemblyInfo.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.RazorAssemblyInfo.cs
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.AssemblyInfoInputs.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.AssemblyInfo.cs
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.RazorTargetAssemblyInfo.cache
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.pdb
