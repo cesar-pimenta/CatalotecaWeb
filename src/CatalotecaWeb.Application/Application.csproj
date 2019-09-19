@@ -10,4 +10,10 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj" />
+    <ProjectReference Include="..\CatalotecaWeb.Service\Service.csproj" />
+    <ProjectReference Include="..\CatalotecaWeb.CrossCutting\CrossCutting.csproj" />
+  </ItemGroup>
+
 </Project>
