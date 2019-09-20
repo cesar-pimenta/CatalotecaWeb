@@ -7,10 +7,8 @@ Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\obj\Debug\netcoreapp2.2\Servi
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\obj\Debug\netcoreapp2.2\Service.AssemblyInfo.cs
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\obj\Debug\netcoreapp2.2\Service.dll
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\obj\Debug\netcoreapp2.2\Service.pdb
-Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\bin\Debug\netcoreapp2.2\CrossCutting.dll
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\bin\Debug\netcoreapp2.2\Data.dll
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\bin\Debug\netcoreapp2.2\Domain.dll
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\bin\Debug\netcoreapp2.2\Domain.pdb
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\bin\Debug\netcoreapp2.2\Data.pdb
-Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\bin\Debug\netcoreapp2.2\CrossCutting.pdb
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Service\obj\Debug\netcoreapp2.2\Service.csproj.CopyComplete

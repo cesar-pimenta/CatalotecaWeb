@@ -833,16 +833,6 @@
           "ref/netstandard1.3/System.Threading.Tasks.dll": {}
         }
       },
-      "CrossCutting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "compile": {
-          "bin/placeholder/CrossCutting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CrossCutting.dll": {}
-        }
-      },
       "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -3280,11 +3270,6 @@
         "system.threading.tasks.nuspec"
       ]
     },
-    "CrossCutting/1.0.0": {
-      "type": "project",
-      "path": "../CatalotecaWeb.CrossCutting/CrossCutting.csproj",
-      "msbuildProject": "../CatalotecaWeb.CrossCutting/CrossCutting.csproj"
-    },
     "Data/1.0.0": {
       "type": "project",
       "path": "../CatalotecaWeb.Data/Data.csproj",
@@ -3298,7 +3283,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "CrossCutting >= 1.0.0",
       "Data >= 1.0.0",
       "Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -3334,9 +3318,6 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj"
-            },
             "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
               "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj"
             },

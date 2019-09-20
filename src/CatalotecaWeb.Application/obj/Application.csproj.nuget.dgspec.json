@@ -29,7 +29,17 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
-            "projectReferences": {}
+            "projectReferences": {
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj"
+              },
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+              },
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -52,6 +62,251 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj",
+        "projectName": "CrossCutting",
+        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj"
+              },
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+              },
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj"
+              },
+              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
+                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

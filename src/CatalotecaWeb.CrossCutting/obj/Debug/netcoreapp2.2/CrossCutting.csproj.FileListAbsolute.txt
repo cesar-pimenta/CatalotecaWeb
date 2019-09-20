@@ -7,3 +7,10 @@ Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\obj\Debug\netcoreapp2.2\
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.AssemblyInfo.cs
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.dll
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\bin\Debug\netcoreapp2.2\Data.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\bin\Debug\netcoreapp2.2\Domain.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\bin\Debug\netcoreapp2.2\Service.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\bin\Debug\netcoreapp2.2\Domain.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\bin\Debug\netcoreapp2.2\Service.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\bin\Debug\netcoreapp2.2\Data.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.CrossCutting\obj\Debug\netcoreapp2.2\CrossCutting.csproj.CopyComplete

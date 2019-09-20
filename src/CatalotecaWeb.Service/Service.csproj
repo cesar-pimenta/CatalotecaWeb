@@ -3,7 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj" />
     <ProjectReference Include="..\CatalotecaWeb.Data\Data.csproj" />
-    <ProjectReference Include="..\CatalotecaWeb.CrossCutting\CrossCutting.csproj" />
+    
   </ItemGroup>
 
   <PropertyGroup>

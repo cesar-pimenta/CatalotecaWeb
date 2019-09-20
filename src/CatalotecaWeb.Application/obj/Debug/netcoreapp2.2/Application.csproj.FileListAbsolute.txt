@@ -12,3 +12,12 @@ Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\A
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.RazorTargetAssemblyInfo.cache
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.dll
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\CrossCutting.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Data.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Domain.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Service.dll
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Domain.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Service.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\CrossCutting.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\bin\Debug\netcoreapp2.2\Data.pdb
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Application\obj\Debug\netcoreapp2.2\Application.csproj.CopyComplete
