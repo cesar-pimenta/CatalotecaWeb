@@ -65,22 +65,6 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Swashbuckle.AspNetCore.Cli": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerGen": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Swashbuckle.AspNetCore.SwaggerUI": {
-              "target": "Package",
-              "version": "[4.0.1, )"
-            },
-            "Swashbuckle.Core": {
-              "target": "Package",
-              "version": "[4.0.0, )"
             }
           },
           "imports": [
@@ -326,10 +310,6 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Swashbuckle.Core": {
-              "target": "Package",
-              "version": "[4.0.0, )"
             }
           },
           "imports": [

@@ -171,10 +171,6 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
-            },
-            "Swashbuckle.Core": {
-              "target": "Package",
-              "version": "[4.0.0, )"
             }
           },
           "imports": [

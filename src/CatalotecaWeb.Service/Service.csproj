@@ -4,7 +4,6 @@
     <ProjectReference Include="..\CatalotecaWeb.Data\Data.csproj"/>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Swashbuckle.Core" Version="4.0.0"/>
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
