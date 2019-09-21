@@ -8,9 +8,9 @@ namespace CatalotecaWeb.Data.Context
         public MyContext CreateDbContext(string[] args)
         {
             // Para utilização de outro banco, apenas trocar a connections string, passando as informações do Banco que você irá utilizar
-            var connectionString = "Server=localhost;Port=3306;Database=dbCatalotecaWeb;Uid=root;Pwd=Chile@2019";
+            var connectionString = "Server=localhost;Port=3306;Database=dbCatalotecaWeb;Uid=root;Pwd=alocardi123";
             var optionsBuilder = new DbContextOptionsBuilder<MyContext>();
-            optionsBuilder.UseMySql (connectionString);
+            optionsBuilder.UseMySql(connectionString);
             return new MyContext(optionsBuilder.Options);
         }
     }

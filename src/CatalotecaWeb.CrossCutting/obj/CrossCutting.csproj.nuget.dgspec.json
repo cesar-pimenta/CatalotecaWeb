@@ -1,43 +1,41 @@
 {
   "format": 1,
   "restore": {
-    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj": {}
+    "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/CrossCutting.csproj": {}
   },
   "projects": {
-    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj": {
+    "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\obj\\",
+        "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/CrossCutting.csproj",
+        "packagesPath": "/home/pandapy/.nuget/packages/",
+        "outputPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/pandapy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
-                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj"
+              "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj": {
+                "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj"
               },
-              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
-                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+              "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {
+                "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj"
               },
-              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj": {
-                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj"
+              "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/Service.csproj": {
+                "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/Service.csproj"
               }
             }
           }
@@ -70,34 +68,32 @@
         }
       }
     },
-    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
+    "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj",
+        "projectUniqueName": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj",
         "projectName": "Data",
-        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\obj\\",
+        "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj",
+        "packagesPath": "/home/pandapy/.nuget/packages/",
+        "outputPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/pandapy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
-                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+              "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {
+                "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj"
               }
             }
           }
@@ -138,27 +134,25 @@
         }
       }
     },
-    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
+    "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj",
+        "projectUniqueName": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\obj\\",
+        "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj",
+        "packagesPath": "/home/pandapy/.nuget/packages/",
+        "outputPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/pandapy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -190,37 +184,35 @@
         }
       }
     },
-    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj": {
+    "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj",
+        "projectUniqueName": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/Service.csproj",
         "projectName": "Service",
-        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\obj\\",
+        "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/Service.csproj",
+        "packagesPath": "/home/pandapy/.nuget/packages/",
+        "outputPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/pandapy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
-                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj"
+              "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj": {
+                "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj"
               },
-              "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
-                "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+              "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {
+                "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj"
               }
             }
           }
