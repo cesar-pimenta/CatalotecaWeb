@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace CatalotecaWeb.Data.Repository
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
-    {   
+    {
         // Disponibiliza o metodo para fora da class
         protected readonly MyContext _context;
         private DbSet<T> _dataset;
@@ -18,13 +18,15 @@ namespace CatalotecaWeb.Data.Repository
             _context = context;
             _dataset = _context.Set<T>();
         }
-        public async Task<T> InsertAsync (T item){
+        public async Task<T> InsertAsync(T item)
+        {
             try
             {
                 // Analisa se o ID está vazio, se tiver vazio ele atribui um novo Guid. 
-                if (item.Id == Guid.Empty){
+                if (item.Id == Guid.Empty)
+                {
                     item.Id = Guid.NewGuid();
-                } 
+                }
                 // Recebe a data atual. 
                 item.CreateAt = DateTime.UtcNow;
                 _dataset.Add(item);
@@ -43,7 +45,7 @@ namespace CatalotecaWeb.Data.Repository
             try
             {
                 // Seleciona no banco o ID do item e guarda nessa variavel.
-                var result = await _dataset.SingleOrDefaultAsync( p => p.Id.Equals(item.Id));
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(item.Id));
                 // Garantir que qualquer dado que não seja do banco de dados, altere alguma coisa do banco de dados.
                 if (result == null)
                     return null;
@@ -53,10 +55,10 @@ namespace CatalotecaWeb.Data.Repository
                 item.CreateAt = result.CreateAt;
 
                 _context.Entry(result).CurrentValues.SetValues(item);
-                await _context.SaveChangesAsync();                
+                await _context.SaveChangesAsync();
             }
             catch (Exception ex)
-            {                
+            {
                 throw ex;
             }
             return item;
@@ -65,9 +67,9 @@ namespace CatalotecaWeb.Data.Repository
         {
             try
             {
-                var result = await _dataset.SingleOrDefaultAsync( p => p.Id.Equals(id));
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
                 if (result == null)
-                    return false;                
+                    return false;
 
                 _dataset.Remove(result);
                 await _context.SaveChangesAsync();
@@ -75,20 +77,54 @@ namespace CatalotecaWeb.Data.Repository
             }
             catch (Exception ex)
             {
-                
+
                 throw ex;
             }
         }
-        public async Task<bool> ExistAsync (Guid id){
-            return await _dataset.AnyAsync ( p => p.Id.Equals (id));
+        public async Task<bool> DeleteAsync(int id)
+        {
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+                if (result == null)
+                    return false;
+
+                _dataset.Remove(result);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
+        public async Task<bool> ExistAsync(Guid id)
+        {
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
+        }
+        public async Task<bool> ExistAsync(int id)
+        {
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
         public async Task<T> SelectAsync(Guid id)
         {
             try
             {
-                return await _dataset.SingleOrDefaultAsync (p => p.Id.Equals (id));
+                return await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
             }
-            catch (Exception ex) 
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public async Task<T> SelectAsync(int id)
+        {
+            try
+            {
+                return await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+            }
+            catch (Exception ex)
             {
                 throw ex;
             }
@@ -102,11 +138,11 @@ namespace CatalotecaWeb.Data.Repository
             }
             catch (Exception ex)
             {
-                
+
                 throw ex;
             }
         }
 
-        
+
     }
 }

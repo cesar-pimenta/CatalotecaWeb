@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "cataloteca.LevenshteinDistance": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

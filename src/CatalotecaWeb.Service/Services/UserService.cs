@@ -12,9 +12,10 @@ namespace CatalotecaWeb.Service.Services
         private IRepository<UserEntity> _repository;
         public UserService(IRepository<UserEntity> repository)
         {
-            _repository = repository; 
+            _repository = repository;
         }
-        public async Task<bool> Delete (Guid id){
+        public async Task<bool> Delete(Guid id)
+        {
             return await _repository.DeleteAsync(id);
         }
 
@@ -30,12 +31,12 @@ namespace CatalotecaWeb.Service.Services
 
         public async Task<UserEntity> Post(UserEntity user)
         {
-            return await _repository.InsertAsync (user);
+            return await _repository.InsertAsync(user);
         }
 
         public async Task<UserEntity> Put(UserEntity user)
         {
-            return await _repository.UpdateAsync (user);
+            return await _repository.UpdateAsync(user);
         }
     }
 }

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "a2f1a0ca22ec4e48121b347585b0443671b47e04"
+    "signature": "1b2409a50981310ae801db7871df4992fd7a0b3c"
   },
   "compilationOptions": {
     "defines": [
@@ -29,7 +29,8 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Service": "1.0.0"
+          "Service": "1.0.0",
+          "cataloteca.LevenshteinDistance": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
@@ -66,6 +67,32 @@
         },
         "compile": {
           "lib/netstandard2.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
+      "cataloteca.LevenshteinDistance/1.0.0": {
+        "dependencies": {
+          "DuoVia.FuzzyStrings": "2.0.1",
+          "Microsoft.ML": "1.3.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/cataloteca.LevenshteinDistance.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.2/cataloteca.LevenshteinDistance.dll": {}
+        }
+      },
+      "DuoVia.FuzzyStrings/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/DuoVia.FuzzyStrings.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/DuoVia.FuzzyStrings.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/2.2.6": {
@@ -137,6 +164,124 @@
           "Microsoft.EntityFrameworkCore.Design": "2.2.6"
         }
       },
+      "Microsoft.ML/1.3.1": {
+        "dependencies": {
+          "Microsoft.ML.CpuMath": "1.3.1",
+          "Microsoft.ML.DataView": "1.3.1",
+          "Newtonsoft.Json": "11.0.2",
+          "System.CodeDom": "4.4.0",
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.1",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Threading.Tasks.Dataflow": "4.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          },
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libLdaNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libLdaNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/LdaNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/LdaNative.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.Core.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Data.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.KMeansClustering.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.PCA.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.StandardTrainers.dll": {},
+          "lib/netstandard2.0/Microsoft.ML.Transforms.dll": {}
+        }
+      },
+      "Microsoft.ML.CpuMath/1.3.1": {
+        "dependencies": {
+          "System.Memory": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libCpuMathNative.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libCpuMathNative.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/CpuMathNative.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/CpuMathNative.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.CpuMath.dll": {}
+        }
+      },
+      "Microsoft.ML.DataView/1.3.1": {
+        "dependencies": {
+          "System.Memory": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.3.28006.10"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {}
+        }
+      },
       "MySqlConnector/0.49.2": {
         "runtime": {
           "lib/netcoreapp2.1/MySqlConnector.dll": {
@@ -203,6 +348,17 @@
           "lib/netstandard1.0/Remotion.Linq.dll": {}
         }
       },
+      "System.CodeDom/4.4.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.25519.3"
+          }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.CodeDom.dll": {}
+        }
+      },
       "System.Collections.Immutable/1.5.0": {},
       "System.Interactive.Async/3.2.0": {
         "runtime": {
@@ -227,6 +383,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Threading.Tasks.Dataflow/4.8.0": {},
       "CrossCutting/1.0.0": {
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
@@ -3400,6 +3557,20 @@
       "path": "automapper.extensions.microsoft.dependencyinjection/7.0.0",
       "hashPath": "automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512"
     },
+    "cataloteca.LevenshteinDistance/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kuF+5rWkFdjKGAmo0gONglLB9c76RYrH63aK4OQ6k9Nvlc9YhkXyWVuYBlXxa9ppG3uvHnMA8C3zDFM9UG+9sQ==",
+      "path": "cataloteca.levenshteindistance/1.0.0",
+      "hashPath": "cataloteca.levenshteindistance.1.0.0.nupkg.sha512"
+    },
+    "DuoVia.FuzzyStrings/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tk0Zg+EPhbGocI+/X82dlieTVe1Bw5yqRioggp6BYqn5ADp5djHicfIGwTMs40QmMcXp+h4/cuE0VcKPgVa9nA==",
+      "path": "duovia.fuzzystrings/2.0.1",
+      "hashPath": "duovia.fuzzystrings.2.0.1.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/2.2.6": {
       "type": "package",
       "serviceable": true,
@@ -3442,6 +3613,27 @@
       "path": "microsoft.entityframeworkcore.tools/2.2.6",
       "hashPath": "microsoft.entityframeworkcore.tools.2.2.6.nupkg.sha512"
     },
+    "Microsoft.ML/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q63fp7E7UHKNjFKDnx5C2gJu/k8VIYegbwm8DgWJRVJNTZTxh+FzEFKXBh70agesbGNIWbWHjJHTyCkojK9YLg==",
+      "path": "microsoft.ml/1.3.1",
+      "hashPath": "microsoft.ml.1.3.1.nupkg.sha512"
+    },
+    "Microsoft.ML.CpuMath/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SCkNYnkd06kA2/CQWa88iLck6NalMvWVRzwwySuqotyUfUmtdAwWA3hliNusR6ieQif3A6SSFbzl9Yu2zpyb2g==",
+      "path": "microsoft.ml.cpumath/1.3.1",
+      "hashPath": "microsoft.ml.cpumath.1.3.1.nupkg.sha512"
+    },
+    "Microsoft.ML.DataView/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EbbP/ZO9wmNK9p9JbjNriw2bA8fuDFmCQp8gLHdsP3If3YpbdCTN0LDm+jkWwDS2V943F7nv8bTJLQSGYTLdrw==",
+      "path": "microsoft.ml.dataview/1.3.1",
+      "hashPath": "microsoft.ml.dataview.1.3.1.nupkg.sha512"
+    },
     "MySqlConnector/0.49.2": {
       "type": "package",
       "serviceable": true,
@@ -3470,6 +3662,13 @@
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
     },
+    "System.CodeDom/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+      "path": "system.codedom/4.4.0",
+      "hashPath": "system.codedom.4.4.0.nupkg.sha512"
+    },
     "System.Collections.Immutable/1.5.0": {
       "type": "package",
       "serviceable": true,
@@ -3490,6 +3689,13 @@
       "sha512": "sha512-Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "path": "system.linq.queryable/4.0.1",
       "hashPath": "system.linq.queryable.4.0.1.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Dataflow/4.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PSIdcgbyNv7FZvZ1I9Mqy6XZOwstYYMdZiXuHvIyc0gDyPjEhrrP9OvTGDHp+LAHp1RNSLjPYssyqox9+Kt9Ug==",
+      "path": "system.threading.tasks.dataflow/4.8.0",
+      "hashPath": "system.threading.tasks.dataflow.4.8.0.nupkg.sha512"
     },
     "CrossCutting/1.0.0": {
       "type": "project",
