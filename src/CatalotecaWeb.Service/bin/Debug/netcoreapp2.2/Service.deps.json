@@ -431,6 +431,7 @@
       "Data/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Design": "2.2.6",
           "Microsoft.EntityFrameworkCore.Tools": "2.2.6",
           "Pomelo.EntityFrameworkCore.MySql": "2.2.0"

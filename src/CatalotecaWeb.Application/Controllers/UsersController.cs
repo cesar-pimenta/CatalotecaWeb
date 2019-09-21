@@ -8,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 namespace CatalotecaWeb.Application.Controllers
 {
     //http://localhost:5000/api/users
-    [Route ("api/[controller]")]
-    [ApiController]  
+    [Route("api/[controller]")]
+    [ApiController]
     public class UsersController : ControllerBase
     {
         private IUserService _service;
@@ -27,34 +27,37 @@ namespace CatalotecaWeb.Application.Controllers
             }
             try
             {
-                return Ok (await _service.GetAll ());
+                return Ok(await _service.GetAll());
             }
             catch (ArgumentException errors)
             {
                 // tive que sair ...  Amanha continuo 
-                return StatusCode ((int) HttpStatusCode.InternalServerError, errors.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, errors.Message);
             }
         }
         [HttpGet]
         [Route("{id}", Name = "GetWithId")]
         public async Task<ActionResult> Get(Guid id)
         {
-            if(!ModelState.IsValid){
+            if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
             }
             try
             {
-                return Ok(await _service.Get (id));
+                return Ok(await _service.Get(id));
             }
             catch (ArgumentException erros)
             {
-                
-                return StatusCode((int) HttpStatusCode.InternalServerError, erros.Message);
+
+                return StatusCode((int)HttpStatusCode.InternalServerError, erros.Message);
             }
         }
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserEntity user){
-            if(!ModelState.IsValid){
+        public async Task<ActionResult> Post([FromBody] UserEntity user)
+        {
+            if (!ModelState.IsValid)
+            {
                 return BadRequest(ModelState);
             }
             try
@@ -62,7 +65,7 @@ namespace CatalotecaWeb.Application.Controllers
                 var result = await _service.Post(user);
                 if (result != null)
                 {
-                    return Created(new Uri(Url.Link("GetWithId", new {id = result.Id})), result);
+                    return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
                 }
                 else
                 {
@@ -71,7 +74,47 @@ namespace CatalotecaWeb.Application.Controllers
             }
             catch (ArgumentException erros)
             {
-                return StatusCode ((int) HttpStatusCode.InternalServerError, erros.Message);
+                return StatusCode((int)HttpStatusCode.InternalServerError, erros.Message);
+            }
+        }
+        [HttpPut]
+        public async Task<ActionResult> Put([FromBody] UserEntity user)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                var result = await _service.Put(user);
+                if (result != null)
+                {
+                    return Ok(result);
+                }
+                else
+                {
+                    return BadRequest();
+                }
+            }
+            catch (ArgumentException errors)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, errors.Message);
+            }
+        }
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            try
+            {
+                return Ok(await _service.Delete(id));
+            }
+            catch (ArgumentException errors)
+            {
+                return StatusCode((int)HttpStatusCode.InternalServerError, errors.Message);
             }
         }
     }

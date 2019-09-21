@@ -1,13 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj" />
-    <ProjectReference Include="..\CatalotecaWeb.Data\Data.csproj" />
-    
+    <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj"/>
+    <ProjectReference Include="..\CatalotecaWeb.Data\Data.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.Core" Version="4.0.0"/>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
 </Project>
