@@ -2,25 +2,25 @@ using System;
 using System.Net;
 using System.Threading.Tasks;
 using CatalotecaWeb.Domain.Entities;
-using CatalotecaWeb.Domain.Interfaces.Services.User;
+using CatalotecaWeb.Domain.Interfaces.Services.Product;
 using Microsoft.AspNetCore.Mvc;
+
 
 namespace CatalotecaWeb.Application.Controllers
 {
-    //http://localhost:5000/api/users
     [Route("api/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    public class ProductsController : ControllerBase
     {
-        private IUserService _service;
-        public UsersController(IUserService service)
+        private IProductService _service;
+        public ProductsController(IProductService service)
         {
             _service = service;
         }
+
         [HttpGet]
         public async Task<ActionResult> GetAll()
         {
-            // Primeir coisa a validar é o state
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState); // 400 Bad request - Solicitação Invalida
@@ -36,7 +36,7 @@ namespace CatalotecaWeb.Application.Controllers
             }
         }
         [HttpGet]
-        [Route("{id}", Name = "GetWithId")]
+        [Route("{id}", Name = "Getid")]
         public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
@@ -54,7 +54,7 @@ namespace CatalotecaWeb.Application.Controllers
             }
         }
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] UserEntity user)
+        public async Task<ActionResult> Post([FromBody] ProductEntity product)
         {
             if (!ModelState.IsValid)
             {
@@ -62,10 +62,10 @@ namespace CatalotecaWeb.Application.Controllers
             }
             try
             {
-                var result = await _service.Post(user);
+                var result = await _service.Post(product);
                 if (result != null)
                 {
-                    return Created(new Uri(Url.Link("GetWithId", new { id = result.Id })), result);
+                    return Created(new Uri(Url.Link("Getid", new { id = result.Id })), result);
                 }
                 else
                 {
@@ -78,7 +78,7 @@ namespace CatalotecaWeb.Application.Controllers
             }
         }
         [HttpPut]
-        public async Task<ActionResult> Put([FromBody] UserEntity user)
+        public async Task<ActionResult> Put([FromBody] ProductEntity product)
         {
             if (!ModelState.IsValid)
             {
@@ -86,7 +86,7 @@ namespace CatalotecaWeb.Application.Controllers
             }
             try
             {
-                var result = await _service.Put(user);
+                var result = await _service.Put(product);
                 if (result != null)
                 {
                     return Ok(result);

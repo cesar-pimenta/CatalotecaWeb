@@ -3263,6 +3263,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Domain >= 1.0.0",
+      "Microsoft.EntityFrameworkCore >= 2.2.6",
       "Microsoft.EntityFrameworkCore.Design >= 2.2.6",
       "Microsoft.EntityFrameworkCore.Tools >= 2.2.6",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -3270,37 +3271,35 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cesar\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/pandapy/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj",
+      "projectUniqueName": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj",
       "projectName": "Data",
-      "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-      "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\obj\\",
+      "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj",
+      "packagesPath": "/home/pandapy/.nuget/packages/",
+      "outputPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/pandapy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
-              "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
+            "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {
+              "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj"
             }
           }
         }
@@ -3314,6 +3313,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[2.2.6, )"
+          },
           "Microsoft.EntityFrameworkCore.Design": {
             "target": "Package",
             "version": "[2.2.6, )"

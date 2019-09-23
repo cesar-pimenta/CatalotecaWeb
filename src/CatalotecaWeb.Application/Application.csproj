@@ -1,19 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNetCore.App"/>
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All"/>
+    <PackageReference Include="cataloteca.LevenshteinDistance" Version="1.0.0"/>
   </ItemGroup>
-
   <ItemGroup>
-    <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj" />
-    <ProjectReference Include="..\CatalotecaWeb.Service\Service.csproj" />
-    <ProjectReference Include="..\CatalotecaWeb.CrossCutting\CrossCutting.csproj" />
+    <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj"/>
+    <ProjectReference Include="..\CatalotecaWeb.Service\Service.csproj"/>
+    <ProjectReference Include="..\CatalotecaWeb.CrossCutting\CrossCutting.csproj"/>
   </ItemGroup>
-
 </Project>

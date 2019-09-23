@@ -1,13 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <ItemGroup>
-    <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj" />
-    <ProjectReference Include="..\CatalotecaWeb.Data\Data.csproj" />
-    
+    <ProjectReference Include="..\CatalotecaWeb.Domain\Domain.csproj"/>
+    <ProjectReference Include="..\CatalotecaWeb.Data\Data.csproj"/>
   </ItemGroup>
-
+  <ItemGroup>
+  </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
 </Project>

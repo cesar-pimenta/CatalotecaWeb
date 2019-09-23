@@ -9,6 +9,7 @@
       "Data/1.0.0": {
         "dependencies": {
           "Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.2.6",
           "Microsoft.EntityFrameworkCore.Design": "2.2.6",
           "Microsoft.EntityFrameworkCore.Tools": "2.2.6",
           "Pomelo.EntityFrameworkCore.MySql": "2.2.0"
@@ -405,7 +406,7 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "4.0.4.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.0.0.0"
           }
         }
       },
