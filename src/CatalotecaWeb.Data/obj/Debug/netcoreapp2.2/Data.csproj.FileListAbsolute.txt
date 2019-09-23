@@ -25,3 +25,4 @@ Y:\project\CatalotecaWeb\src\CatalotecaWeb.Data\bin\Debug\netcoreapp2.2\Data.pdb
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Data\bin\Debug\netcoreapp2.2\Domain.dll
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Data\bin\Debug\netcoreapp2.2\Domain.pdb
 Y:\project\CatalotecaWeb\src\CatalotecaWeb.Data\obj\Debug\netcoreapp2.2\Data.csproj.CopyComplete
+Y:\project\CatalotecaWeb\src\CatalotecaWeb.Data\obj\Debug\netcoreapp2.2\Data.csprojAssemblyReference.cache
