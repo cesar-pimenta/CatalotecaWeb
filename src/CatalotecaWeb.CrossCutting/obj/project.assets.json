@@ -3384,41 +3384,43 @@
     ]
   },
   "packageFolders": {
-    "/home/pandapy/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\cesar\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/CrossCutting.csproj",
+      "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj",
       "projectName": "CrossCutting",
-      "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/CrossCutting.csproj",
-      "packagesPath": "/home/pandapy/.nuget/packages/",
-      "outputPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.CrossCutting/obj/",
+      "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\CrossCutting.csproj",
+      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+      "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/pandapy/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj": {
-              "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Data/Data.csproj"
+            "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj": {
+              "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Data\\Data.csproj"
             },
-            "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {
-              "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj"
+            "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
+              "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj"
             },
-            "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/Service.csproj": {
-              "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Service/Service.csproj"
+            "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj": {
+              "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Service\\Service.csproj"
             }
           }
         }

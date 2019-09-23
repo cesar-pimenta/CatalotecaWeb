@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {}
+    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj": {
+    "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj",
+        "projectUniqueName": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/Domain.csproj",
-        "packagesPath": "/home/pandapy/.nuget/packages/",
-        "outputPath": "/home/pandapy/Documentos/project/CatalotecaWeb/src/CatalotecaWeb.Domain/obj/",
+        "projectPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+        "outputPath": "Y:\\project\\CatalotecaWeb\\src\\CatalotecaWeb.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/pandapy/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
