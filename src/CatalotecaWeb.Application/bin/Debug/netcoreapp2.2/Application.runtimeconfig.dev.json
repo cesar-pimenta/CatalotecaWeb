@@ -1,9 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\cesar\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\cesar\\.nuget\\packages",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/home/pandapy/.dotnet/store/|arch|/|tfm|",
+      "/home/pandapy/.nuget/packages",
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
     ]
   }
 }

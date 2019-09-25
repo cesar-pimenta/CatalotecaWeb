@@ -12,7 +12,7 @@ namespace CatalotecaWeb.CrossCutting.DependecyInjection
         {
             serviceCollection.AddScoped(typeof(IRepository<>), typeof(BaseRepository<>));
             serviceCollection.AddDbContext<MyContext>(
-                options => options.UseMySql("Server=localhost;Port=3306;Database=dbCatalotecaWeb;Uid=root;Pwd=Chile@2019")
+                options => options.UseMySql("Server=localhost;Port=3306;Database=dbCatalotecaWeb;Uid=root;Pwd=alocardi123")
             );
         }
     }
